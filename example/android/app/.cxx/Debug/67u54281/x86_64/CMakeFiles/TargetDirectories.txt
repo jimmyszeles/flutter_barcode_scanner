@@ -1,0 +1,2 @@
+C:/Users/Jimmy Szeles/OneDrive - GOit/Documenten/GitHub/flutter_barcode_scanner/example/android/app/.cxx/Debug/67u54281/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/Jimmy Szeles/OneDrive - GOit/Documenten/GitHub/flutter_barcode_scanner/example/android/app/.cxx/Debug/67u54281/x86_64/CMakeFiles/rebuild_cache.dir

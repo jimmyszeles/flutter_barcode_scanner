@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "C:\\Data\\flutter\\packages\\flutter_tools\\gradle\\src\\main\\groovy\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Jimmy Szeles\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\Jimmy Szeles\\OneDrive - GOit\\Documenten\\GitHub\\flutter_barcode_scanner\\example\\android\\app\\.cxx\\Debug\\67u54281\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Jimmy Szeles\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\Jimmy Szeles\\OneDrive - GOit\\Documenten\\GitHub\\flutter_barcode_scanner\\example\\android\\app\\.cxx\\Debug\\67u54281\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}
