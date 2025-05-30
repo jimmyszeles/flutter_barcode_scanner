@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  flutter_plugin_android_lifecycle: ^2.0.24
+  flutter_plugin_android_lifecycle: ^2.0.28
 
 dev_dependencies:
   flutter_test:
@@ -19,7 +19,7 @@ dev_dependencies:
   flutter_barcode_scanner:
     path: ../
 
-  pedantic: ^1.11.1
+  lints: ^6.0.0
 
 flutter:
   uses-material-design: true
