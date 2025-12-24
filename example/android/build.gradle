@@ -7,7 +7,7 @@ allprojects {
         if (project.hasProperty("kotlin")) {
             project.tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
                 kotlinOptions {
-                    jvmTarget = "1.8"
+                    jvmTarget = "17"
                 }
             }
         }
@@ -20,6 +20,10 @@ subprojects {
 }
 subprojects {
     project.evaluationDependsOn(':app')
+    tasks.withType(JavaCompile).configureEach {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
 }
 
 tasks.register("clean", Delete) {
@@ -27,5 +31,5 @@ tasks.register("clean", Delete) {
 }
 
 buildscript {
-    ext.kotlin_version = '2.0.0'
+    ext.kotlin_version = '2.2.20'
 }
