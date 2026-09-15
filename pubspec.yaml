@@ -10,10 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_plugin_android_lifecycle: ^2.0.33
+  flutter_plugin_android_lifecycle: ^2.0.35
 dev_dependencies:
-  lints: ^6.0.0
-  test: ^1.28.0
+  lints: ^6.1.0
+  test: ^1.32.0
 
 flutter:
   # This section identifies this Flutter project as a plugin project.
