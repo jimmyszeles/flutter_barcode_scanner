@@ -1,4 +1,4 @@
 #import <Flutter/Flutter.h>
 
-@interface FlutterBarcodeScannerPlugin : NSObject<FlutterPlugin>
+@interface FlutterBarcodeScannerPlugin : NSObject<FlutterPlugin, FlutterSceneLifeCycleDelegate>
 @end

@@ -4,5 +4,6 @@
 @implementation FlutterBarcodeScannerPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   [SwiftFlutterBarcodeScannerPlugin registerWithRegistrar:registrar];
+  [registrar addSceneDelegate:instance];
 }
 @end
